@@ -60,7 +60,7 @@ case_ifood/
 - Dados com `count_passenger = 0` foram mantidos, mas identificados como possíveis inconsistências.
 - Foram filtrados registros fora do intervalo `2023-01-01` a `2025-05-31`.
 - As tabelas incluem documentação de colunas (descrições) para facilitar manutenção e entendimento.
-- O enunciado recomendava o uso do Databricks Community Edition, porém a versão gratuita não permite leitura direta de arquivos do Google Cloud Storage (GCS) de forma simples. Por esse motivo, foi utilizada a solução com **Dataproc Serverless** no GCP, que oferece integração nativa com GCS e BigQuery, além de permitir o uso completo do PySpark sem limitações técnicas.
+- O enunciado recomendava o uso do Databricks Community Edition, porém a versão gratuita não permite leitura direta de arquivos do Google Cloud Storage (GCS). Por esse motivo, foi utilizada a solução com **Dataproc Serverless** no GCP, que oferece integração nativa com GCS e BigQuery, além de permitir o uso completo do PySpark sem limitações técnicas.
 - Essa abordagem também facilita a disponibilização das tabelas diretamente aos usuários finais no BigQuery, conforme solicitado no desafio.
 
 ---
