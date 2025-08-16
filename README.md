@@ -39,7 +39,7 @@ Este repositório apresenta a solução completa para o desafio técnico de enge
 
 ## Organização do Repositório
 ```
-ifood-case/
+case_ifood/
 ├── src/                    # Código PySpark e SQL
 │   └── app.ipynb      # Notebook com toda a implementação
 ├── analysis/               # Consultas SQL de análise
